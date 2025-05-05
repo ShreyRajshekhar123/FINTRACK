@@ -1,9 +1,17 @@
-import React from 'react'
+import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Dashboard from "./components/Dashboard";
+import SignUpSignIn from "./components/Signup";
 
-const App = () => {
+function App() {
   return (
-    <div>App</div>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<SignUpSignIn />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
