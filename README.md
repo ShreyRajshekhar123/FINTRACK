@@ -1,3 +1,6 @@
+FinTrack is a personal finance management tool designed to solve a real-world problem—keeping track of where your money goes. With a user-friendly interface and secure authentication, it enables users to monitor income, categorize expenses, and maintain control of their financial goals, all in real-time.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
